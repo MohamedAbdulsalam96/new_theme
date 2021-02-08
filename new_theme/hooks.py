@@ -4,7 +4,7 @@ from . import __version__ as app_version
 
 app_name = "new_theme"
 app_title = "New Theme"
-app_publisher = "Theme"
+app_publisher = "Ahmed Mohammed"
 app_description = "New Theme"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
@@ -15,11 +15,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/new_theme/css/new_theme.css"
+app_include_css = "/assets/new_theme/css/new_theme.css"
 # app_include_js = "/assets/new_theme/js/new_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/new_theme/css/new_theme.css"
+web_include_css = "/assets/new_theme/css/new_theme.css"
 # web_include_js = "/assets/new_theme/js/new_theme.js"
 
 # include js in page

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.navbar-default {
+	background-color: #a25f21;
+	border-color: #a25f21;}
+#navbar-search {
+	background-color: #635012;
+	border: 1px solid #635012;
+	color: #ffffff;}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+	color: #ffffff;}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #cccccc;}
+.navbar-light{
+	background-color: #a25f21 !important;}
+.navbar-light .navbar-nav .nav-link{
+	color: #ffffff;}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#c7c7c7}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+	color: #ffffff;}
+.navbar .navbar-search-icon {
+	color: #ffffff;}
+a:hover, a:focus {
+	color: #b3932a;}
+a.text-primary:hover {
+	color: #b3932a}
+.text-primary {
+	color: #9e9621}
+body {	
+	background-color: #f8f8f8;}
+.section-box {
+	border: 1px solid #eaeaea;	
+	background-color:#ffffff;}
+.section-box h4 {
+	color:#d8ba37}
+a {
+	color: #6f6f6f;}
+.page-head {
+	border-bottom: 1px solid #eee;}
+.module-box {
+	border: 1px solid #eaeaea !important;}
+.module-box:hover{
+	border: 1px solid #b1d0ff !important}
+.btn-primary {
+	background-color: #816a00;
+	border-color: #a25f21;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background-color: #827927;
+	border-color: #827927;}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+	background-color: #827927;
+	border-color: #827927; }
+.btn-primary:focus, .btn-primary.focus {
+	box-shadow: 0 0 0 0.1rem rgba(74, 120, 247, 0.16);}
+.btn-login{
+	padding:8px}
+.btn:hover{
+	color:#e7e7e7}
+.list-sidebar .list-sidebar-label {
+	color: #816a00;
+	font-weight: bold;}
+.layout-main-section {
+	border: 1px solid #efefef;}
+.active-tag-filters {
+	overflow: auto;}
+.filter-list .tag-filters-area {
+	border: none;
+	background-color: #ffffff;}
+.page-form {
+	border-bottom: 1px solid #efefef;}
+.list-row-head {
+	border-bottom: 1px solid #efefef !important;}
+.dropdown-menu > li > a {	
+	color: #666;}
+.page-card {
+ 	border: 1px solid #ececec !important;}
+.page-card .page-card-head {
+	border-bottom:none !important}
+.page-card .page-card-head .indicator {
+ 	color: #dde02b !important;}
+.indicator.blue::before, .indicator-right.blue::after{
+	background:#816a00}
+.indicator.orange::before, .indicator-right.orange::after{
+	background:#ffb65c}
+.modal-content{
+	border: 1px solid #eaeaea;}
+.modal-backdrop {
+	background-color:#f8f8f8!important;}
+.form-signin .form-control {
+	border:1px solid #ececec}
+.form-control:focus {
+	box-shadow: 0 0 0 0.05rem rgba(33, 82, 158, 0.62) !important;}
+
+/*To hide the Help dropdown button */
+.navbar-right .dropdown-help {
+	display:none}
+/*End hide Help dropdown button */
+
+.list-row-head{
+	color: #816a00 !important;
+	font-weight: bold;}
+.form-dashboard {
+	background-color: #ffffff !important}
+.layout-main-section{
+	background-color: #ffffff !important}
+.form-documents h6 {	
+	color: #816a00;
+	font-weight: bold;}
+
+/*Icons for Desk*/
+.icon{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    vertical-align: bottom;
+    background-size: contain !important;}
+.start-blue{
+   background: url(/assets/bluetheme/images/start.png)}
+.accounting-blue{
+   background: url(/assets/bluetheme/images/accounting.png)}	
+.buying-blue{
+   background: url(/assets/bluetheme/images/buying.png)}
+.selling-blue{
+   background: url(/assets/bluetheme/images/selling.png)}
+.stock-blue{
+   background: url(/assets/bluetheme/images/stock.png)}
+.assets-blue{
+   background: url(/assets/bluetheme/images/assets.png)}
+.projects-blue{
+   background: url(/assets/bluetheme/images/projects.png)}
+.crm-blue{
+   background: url(/assets/bluetheme/images/crm.png)}
+.support-blue{
+   background: url(/assets/bluetheme/images/support.png)}
+.hr-blue{
+   background: url(/assets/bluetheme/images/hr.png)}
+.quality-blue{
+   background: url(/assets/bluetheme/images/quality.png)}
+.website-blue{
+   background: url(/assets/bluetheme/images/website.png)}
+.social-blue{
+   background: url(/assets/bluetheme/images/social.png)}
+.dashboard-blue{
+   background: url(/assets/bluetheme/images/dashboard.png)}
+.marketplace-blue{
+   background: url(/assets/bluetheme/images/marketplace.png)}
+.tools-blue{
+   background: url(/assets/bluetheme/images/tools.png)}
+.settings-blue{
+   background: url(/assets/bluetheme/images/settings.png)}
+.users-blue{
+   background: url(/assets/bluetheme/images/users.png)}
+.customize-blue{
+   background: url(/assets/bluetheme/images/customize.png)}
+.integrate-blue{
+   background: url(/assets/bluetheme/images/integrate.png)}
+.developer-blue{
+   background: url(/assets/bluetheme/images/developer.png)}
+.learn-blue{
+   background: url(/assets/bluetheme/images/learn.png)}
+.manufacture-blue{
+   background: url(/assets/bluetheme/images/manufacture.png)}
+.retail-blue{
+   background: url(/assets/bluetheme/images/retail.png)}
+.education-blue{
+   background: url(/assets/bluetheme/images/education.png)}
+.healthcare-blue{
+   background: url(/assets/bluetheme/images/healthcare.png)}
+.agriculture-blue{
+   background: url(/assets/bluetheme/images/agriculture.png)}
+.non-profit-blue{
+   background: url(/assets/bluetheme/images/charity.png)}
